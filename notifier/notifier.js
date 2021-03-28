@@ -20,7 +20,7 @@ const notify = ({title, message}, cb) => {
         {
             title: title || "Unkown title",
             message: message || "Unkown message",
-            icon: path.join(__dirname, "gophertuts.png"),
+            icon: path.join(__dirname, 'gophertuts.png'),
             sound: true,
             wait: true,
             reply: true,

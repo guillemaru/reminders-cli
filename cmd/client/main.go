@@ -4,6 +4,8 @@ import (
 	"flag"
 	"fmt"
 	"os"
+
+	"github.com/gophertuts/reminders-cli/client"
 )
 
 var (
